@@ -1,0 +1,354 @@
+body {
+    background-color: #ededed;
+}
+
+.navbar {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.navbar-toggler:focus {
+    box-shadow: 0 0 0 0.1rem; 
+}
+
+h1 {
+    /* text-align: center; */
+    font-size: 2.0rem;
+    font-weight: 500;
+}
+.oneBlock {
+    background-color: #fff;
+    border-radius: 6px;
+    max-width: 300px;
+    max-height: 420px;
+    margin: 10px auto;
+    padding: 10px 0;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.06);
+    transition: all .3s;
+}
+
+.oneBlock:hover {  
+    box-shadow: 0 14px 30px -15px rgba(0, 0, 0, 0.75);
+}
+
+.picture img {
+    max-height: 250px;
+    width: auto;
+    display: block;
+    margin: 10px auto;
+}
+
+.description {
+    padding: 5px 15px;
+}
+
+
+.text {
+    font-size: 12px;
+}
+.text h4 {
+    height: 37px;
+    overflow: hidden;
+    font-size: 1.0rem;
+}
+
+.text p{
+    height: 37px;
+    overflow: hidden;
+    margin: 0;
+}
+
+
+a {
+    text-decoration: none;
+    color: #2a2a2a;
+}
+a:hover {
+    text-decoration: none;
+    color: #121212;
+    font-weight: 500;
+}
+
+
+.category .nav-item a {
+    text-decoration: none;
+    color: #2a2a2a;
+    font-size: 15px;
+}
+
+.category .nav-item a:hover {
+    text-decoration: none;
+    color: #121212;
+    font-weight: 500;
+}
+
+.oneBook {
+    max-width: 100%;
+    max-height: 500px;
+    margin: 10px auto;
+    padding: 10px 0;
+}
+
+.oneBook__picture img {
+    max-height: 380px;
+    width: auto;
+    display: block;
+    margin: 10px auto;
+}
+
+.oneBook__description {
+    padding: 5px 15px;
+}
+
+.oneBook__mini-picture {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.oneBook__mini-picture img {
+    height: 85px;
+    padding: 8px;
+}
+
+.oneBook__text {
+   /* margin-left: 0; */
+}
+
+.one {
+    text-align: center;
+}
+
+hr {
+    margin: 0;
+}
+
+
+/*  form  */
+
+.login__form {
+    width: 310px;
+    padding: 20px;
+    border: 1px solid #24272b;
+    border-radius: 6px;
+    background-color: #e4e4e4;
+    margin: 0 auto;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.06);
+    transition: all .3s;
+}
+.login__form:hover {
+    box-shadow: 0 14px 30px -15px rgba(0, 0, 0, 0.75);
+}
+
+.form-control, .form-select {
+    padding: 5px 12px;
+    font-size: 14px;
+    line-height: 20px;
+    border-radius: 6px;
+}
+
+.btn-block {
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 5px 16px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    margin-top: 20px;
+    background-color: #2c9044;
+    border-radius: 6px;
+}
+
+
+.register-helper {
+    width: 310px;
+    padding: 15px 20px;
+    text-align: center;
+    border: 1px solid #24272b;
+    border-radius: 6px;
+    background-color: #e4e4e4;
+    margin: 0 auto;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.06);
+    transition: all .3s;
+}
+
+.register-helper:hover {
+    box-shadow: 0 14px 30px -15px rgba(0, 0, 0, 0.75);
+}
+
+.sign__up {
+    font-weight: 500;
+}
+
+/*  end form  */
+
+
+/*  footer  */
+.footer {
+    background-color: #ddd;
+    margin-top: 30px;
+    padding-top: 40px;
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+
+.footer li {
+    list-style: none;
+}
+.footer__link__title {
+    font-weight: 500;
+}
+.footer__copy {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.fab {
+    font-size: 24px;
+    padding: 5px;
+}
+.fab:hover {
+    font-size: 24.5px;
+}
+
+/*  end footer  */
+
+
+/*  admin  */
+
+.fas.admin__icon {
+    font-size: 33px;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+
+.admin_block {
+    padding-top: 20px;
+}
+
+.admin__text {  
+    padding-bottom: 10px;
+}
+
+.admin__nav {
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.fas.books_table {
+    font-size: 22px;
+    padding: 5px;
+}
+
+.edit__form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.bottom {
+    margin: 5px 20px;
+}
+
+/*  admin footer  */
+.footer__admin {
+    background-color: #ddd;
+    margin-top: 45px;
+    padding-top: 10px;
+    font-size: 14px;
+    padding-bottom: 15px;
+}
+
+/*  end admin footer  */
+
+
+/* scrollmenu */
+
+div.scrollmenu {
+    color: #121212;
+    background-color: transparent;
+    overflow: auto;
+    white-space: nowrap;
+    text-align: center;
+}
+
+div.scrollmenu a {
+    display: inline-block;
+    color: #121212;
+    text-align: center;
+    padding: 10px 13px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+div.scrollmenu a:hover {
+    //background-color: #777;
+}
+
+/* end scrollmenu */
+
+
+
+/* media */
+
+@media only screen and (max-width: 768px) {
+
+    .oneBook { 
+        max-height: 520px;
+        margin: 10px auto;
+        padding: 10px 0;
+    }
+
+}
+
+
+@media only screen and (max-width: 576px) {
+    
+     .nav-link {
+        /* padding: 0.15rem 0.2rem;
+        font-size: 12px; */
+    }
+    .category .nav-item a {
+        text-decoration: none;
+        font-size: 14px;
+    }
+    /* добавляет отступ внизу адаптивного меню */
+    .d-flex .nav-item:last-child {
+        padding-bottom: 15px;
+    }
+    h1 {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 380px) {
+    .oneBook__mini-picture img {
+        height: 75px;
+        padding: 8px;
+    }
+    .category .nav-link {
+        padding: 0.15rem 0.2rem;
+        font-size: 12px;
+    }
+    .navbar-toggler {
+        padding: 2px 8px;
+    }
+    .navbar-toggler:focus {
+        box-shadow: 0 0 0 0.1rem; 
+        padding: 2px 8px;
+    }
+}
+
+@media only screen and (max-width: 340px) {
+    .login__form {
+        width: 280px;
+        padding: 20px;
+    }
+    .register-helper {
+        width: 280px;
+    }
+
+    .d-flex .nav-item:last-child {
+        padding-bottom: 15px;
+    }
+}
